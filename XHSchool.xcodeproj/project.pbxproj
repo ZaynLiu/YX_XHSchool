@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		165B947240F7AEC840B9028D /* libPods-XHSchool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 165BBBFADA6580733E79B6F1 /* libPods-XHSchool.a */; };
+		527E339F1D502F3600814D2F /* IndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 527E339D1D502F3600814D2F /* IndexViewController.m */; };
+		527E33A01D502F3600814D2F /* IndexViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 527E339E1D502F3600814D2F /* IndexViewController.xib */; };
 		52D1351F1D4B2B7C00DE7A04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D1351E1D4B2B7C00DE7A04 /* main.m */; };
 		52D135221D4B2B7C00DE7A04 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D135211D4B2B7C00DE7A04 /* AppDelegate.m */; };
-		52D135251D4B2B7C00DE7A04 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D135241D4B2B7C00DE7A04 /* ViewController.m */; };
-		52D135281D4B2B7C00DE7A04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D135261D4B2B7C00DE7A04 /* Main.storyboard */; };
 		52D1352A1D4B2B7C00DE7A04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52D135291D4B2B7C00DE7A04 /* Assets.xcassets */; };
 		52D1352D1D4B2B7C00DE7A04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D1352B1D4B2B7C00DE7A04 /* LaunchScreen.storyboard */; };
 		52D135381D4B2B7C00DE7A04 /* XHSchoolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D135371D4B2B7C00DE7A04 /* XHSchoolTests.m */; };
@@ -38,13 +38,13 @@
 /* Begin PBXFileReference section */
 		03A271495F3DB864FF21B2EB /* Pods-XHSchool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XHSchool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XHSchool/Pods-XHSchool.debug.xcconfig"; sourceTree = "<group>"; };
 		165BBBFADA6580733E79B6F1 /* libPods-XHSchool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XHSchool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		527E339C1D502F3600814D2F /* IndexViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexViewController.h; sourceTree = "<group>"; };
+		527E339D1D502F3600814D2F /* IndexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndexViewController.m; sourceTree = "<group>"; };
+		527E339E1D502F3600814D2F /* IndexViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IndexViewController.xib; sourceTree = "<group>"; };
 		52D1351A1D4B2B7C00DE7A04 /* XHSchool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XHSchool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D1351E1D4B2B7C00DE7A04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		52D135201D4B2B7C00DE7A04 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		52D135211D4B2B7C00DE7A04 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		52D135231D4B2B7C00DE7A04 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		52D135241D4B2B7C00DE7A04 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		52D135271D4B2B7C00DE7A04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52D135291D4B2B7C00DE7A04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52D1352C1D4B2B7C00DE7A04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52D1352E1D4B2B7C00DE7A04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -83,6 +83,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		527E339B1D502F1A00814D2F /* IndexPage */ = {
+			isa = PBXGroup;
+			children = (
+				527E339C1D502F3600814D2F /* IndexViewController.h */,
+				527E339D1D502F3600814D2F /* IndexViewController.m */,
+				527E339E1D502F3600814D2F /* IndexViewController.xib */,
+			);
+			path = IndexPage;
+			sourceTree = "<group>";
+		};
 		52D135111D4B2B7C00DE7A04 = {
 			isa = PBXGroup;
 			children = (
@@ -108,11 +118,9 @@
 		52D1351C1D4B2B7C00DE7A04 /* XHSchool */ = {
 			isa = PBXGroup;
 			children = (
+				527E339B1D502F1A00814D2F /* IndexPage */,
 				52D135201D4B2B7C00DE7A04 /* AppDelegate.h */,
 				52D135211D4B2B7C00DE7A04 /* AppDelegate.m */,
-				52D135231D4B2B7C00DE7A04 /* ViewController.h */,
-				52D135241D4B2B7C00DE7A04 /* ViewController.m */,
-				52D135261D4B2B7C00DE7A04 /* Main.storyboard */,
 				52D135291D4B2B7C00DE7A04 /* Assets.xcassets */,
 				52D1352B1D4B2B7C00DE7A04 /* LaunchScreen.storyboard */,
 				52D1352E1D4B2B7C00DE7A04 /* Info.plist */,
@@ -270,9 +278,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				527E33A01D502F3600814D2F /* IndexViewController.xib in Resources */,
 				52D1352D1D4B2B7C00DE7A04 /* LaunchScreen.storyboard in Resources */,
 				52D1352A1D4B2B7C00DE7A04 /* Assets.xcassets in Resources */,
-				52D135281D4B2B7C00DE7A04 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,9 +353,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52D135251D4B2B7C00DE7A04 /* ViewController.m in Sources */,
 				52D135221D4B2B7C00DE7A04 /* AppDelegate.m in Sources */,
 				52D1351F1D4B2B7C00DE7A04 /* main.m in Sources */,
+				527E339F1D502F3600814D2F /* IndexViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,14 +391,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		52D135261D4B2B7C00DE7A04 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				52D135271D4B2B7C00DE7A04 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		52D1352B1D4B2B7C00DE7A04 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
